@@ -1,9 +1,10 @@
 perl=kcpitike@perlmutter.nersc.gov
-dec=piti526@dec-admin9.pnl.gov
+dec=piti526@deception.pnl.gov
 kest=kcpitike@kestrel.nrel.gov
 pl2=piti526@pleiades2.pnl.gov
-remDirDec=/rcfs/projects/fusiondft/krishna/MPEA/dislocations/nep/barrier/master/sites_212/
-remDirPL2=/files4/krishna/mpea_dislocation/barrier/master/sites_212
+remDirDec=/rcfs/projects/fusiondft/krishna/MPEA/mpea_dislocation_master/
+remDirPL2=/files4/krishna/mpea_dislocation_master/
+remPerl=/global/cfs/cdirs/m4242/pscratch/MPEA/mpea_dislocation_master/
 locDir=.
 
 if [ ${2} == 'perl' ] ; then
